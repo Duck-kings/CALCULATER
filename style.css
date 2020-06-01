@@ -62,56 +62,132 @@ body{
     height: 38em;
     background: #919191;
 }
+form{
+    overflow: hidden;
+    border-radius: 3px;
+    
+}
 .form1{
     position: absolute;
-    left: 1em;
-    top: 3em;
+    left: 1.98em;
+    top: 5.8em;
+    border: 1px solid;
 }
-.form2{
-    position: absolute;
-    left: 10em;
-    top: 3em;
+.form1 input{
+    width: 98%;
+    font-size: 29px;
+    text-align: right;
+    
 }
 .form3{
     position: absolute;
-    left: 22em;
-    top: 3em;
-}
-input{
-    width: 7em;
-    height: 2em;
-    text-align: right;
+    left: 1.98em;
+    top: 2.5em;
+    width: 89.4%;
 }
 .form3 input{
-    width: 13em;
+    width: 98.5%;
+    font-size: 29px;
+    text-align: right;
 }
 .number{
-    border: 2px solid #000;
     position: absolute;
     left: 2em;
-    top: 10em;
+    top: 12em;
     width: 23em;
     height: 27em;
+    overflow: hidden;
 }
 .action{
-    border: 2px solid #000;
     position: absolute;
     left: 29em;
-    top: 10em;
+    top: 11.7em;
     width: 4em;
     height: 15em;
 }
 .eql{
-    border: 2px solid #000;
+    border: 1px solid #000;
+    font-size: 25px;
     position: absolute;
-    left: 32.8em;
-    top: 7em;
-    height: 3em;
-    width: 7em;
+    left: 16.3em;
+    top: 3.7em;
+    height: 2em;
+    width: 5em;
+    background: linear-gradient(45deg, #00e5ff, #1200ff);
+}
+.eql:hover{
+    background: linear-gradient(45deg, #fc007a, #00e1fd);
 }
 button{
     outline: none;
     border: none;
 }
+.btnnum{
+    padding: 30px;
+    font-size: 28px;
+    position: absolute;
+    border: 0.5px solid #000;
+    background:linear-gradient(45deg, #a32cdf, #106ad2);
+    transition: 0.5s;
+    color: #fff;
+}
+.btnnum:hover{
+    background: linear-gradient(45deg, #ff0a6c, #2d27ff);
+}
+.nm0{
+    bottom: 0;
+    left: 40%;
+}
+.nm9{
+    bottom: 26%;
+    left: 79%;
+}
+.nm8{
+    bottom: 26%;
+    left: 40%;
+}
+.nm7{
+    bottom: 26%;
+    left: 0;
+}
+.nm6{
+    left: 79%;
+    top: 26%;
+}
+.nm5{
+    left: 40%;
+    top: 26%;
+}
+.nm4{
+    left: 0;
+    top: 26%;
+}
+.nm3{
+    left: 79%;
+    top: 0;
+}
+.nm2{
+    left: 40%;
+    top: 0;
+}
+.nm1{
+    left: 0;
+    top: 0;
+}
+.act{
+     font-size: 35px;
+     height: 25%;
+     width: 100%;
+     background: linear-gradient(90deg, #baa60d, #0cc413);
+     border: 1px solid #000;
+     margin: 5px;
+     color: #000;
+     transition: 0.5s;
+}
+.act:hover{
+    background: linear-gradient(90deg, #ffe53b, #ff2525);
+}
+
+
 
 
